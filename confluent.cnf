@@ -1,0 +1,9 @@
+# Required connection configs for Kafka producer, consumer, and admin
+bootstrap.servers=pkc-3w22w.us-central1.gcp.confluent.cloud:9092
+security.protocol=SASL_SSL
+sasl.mechanisms=PLAIN
+sasl.username=6J35YNCUQCT5SHBN
+sasl.password=xuiXkJRPyPCEr4e41T3/jvY2xkkrr8598zL3bWaONaO4qOX5w/TcppxjS+/0PbeP
+
+# Best practice for higher availability in librdkafka clients prior to 1.7
+session.timeout.ms=45000
